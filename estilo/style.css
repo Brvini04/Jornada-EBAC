@@ -4,7 +4,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.html{
+html{
     background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
 }
 
