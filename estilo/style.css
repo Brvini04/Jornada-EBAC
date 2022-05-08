@@ -4,6 +4,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.html{
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -32,7 +35,7 @@ body{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin-top: 50px;
+    margin-top: 80%;
     margin-left: 40px;
     display: flex;
     justify-content: center;
@@ -97,8 +100,12 @@ body{
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    width: 50vw;
-    height: 78.8%;
+    width: 100vw;
+    height: 100%;
+}
+
+.sobre-mim{
+    margin-top: 2   0%;
 }
 
 .experiencias-desktop{
@@ -132,11 +139,29 @@ body{
 }
 
 .formacao1-materia-desktop{
-    margin-left: 260px;
+    margin-left: 220px;
 }
 
 .formacoes-mobile{
     display: none;
+}
+
+.cursos{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao{
+    margin-left: 260px;
+}
+
+.cursos{
+    margin-top: 60px;
 }
 /** sessão conjunto direito **/
 @media only screen and (max-width: 1024px){
@@ -158,7 +183,7 @@ body{
     }
 
     .sobre-mim{
-        margin-top: 200px;
+        margin-top: 80%;
     }
 
     .experiencias-desktop{
@@ -209,5 +234,22 @@ body{
         margin-top: 20px;
         width: auto;
         text-align: center;
+    }
+    .cursos{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .descricao{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto-fora{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
